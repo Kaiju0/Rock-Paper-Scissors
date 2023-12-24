@@ -1,0 +1,96 @@
+:root {
+    --main-color: #18206f;
+    --sec-color: #d4af37;
+    --tri-color: #cbcbd4;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Sora', sans-serif;
+}
+
+body {
+    background-color: var(--main-color);
+    color: var(--tri-color);
+}
+
+.header {
+    font-weight: bolder;
+    font-size: 5vw;
+    text-align: center;
+    padding-top: 8vh;
+    padding-bottom: 8vh;
+}
+
+.button-div {
+    padding-left: 20vw;
+}
+
+.player-button {
+    background-color: transparent;
+    cursor: pointer;
+    border: 3px dotted var(--tri-color);
+    width: 15vw;
+    height: 15vw;
+    padding: 2vw;
+    transition: 0.95s ease-out;
+    border-radius: 50%;
+    margin: 1.5vw;
+}
+.player-button:hover {
+    background-color: var(--tri-color);
+}
+
+img {
+    width: 8vw;
+}
+
+.result {
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.moves {
+    text-align: center;
+}
+
+.score {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.reset-div {
+    text-align: center;
+}
+
+.reset-button, .autoplay-button {
+    background-color: transparent;
+    border: 3px dotted var(--tri-color);
+    padding: 2vw;
+    color: var(--tri-color);
+    text-align: center;
+    border-radius: 5%;
+    cursor: pointer;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.reset-button:hover {
+    background-color: var(--tri-color);
+    transition: 0.95s ease-out;
+    color: var(--main-color);
+    border-color: var(--main-color);
+}
+
+.autoplay-button:hover {
+    background-color: var(--tri-color);
+    transition: 0.95s ease-out;
+    color: var(--main-color);
+    border-color: var(--main-color);
+}
+
+
+
